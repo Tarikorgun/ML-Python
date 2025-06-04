@@ -1,0 +1,2 @@
+Fragen:
+Sollen wir den trend entfernen/und wie? (ARIMA SARIMA)
