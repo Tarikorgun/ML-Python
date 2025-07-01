@@ -1,0 +1,45 @@
+Feature-Name,Kategorie,Ursprung / Berechnung,Datentyp
+ground_elevation_m_asl,Statisch-Numerisch,Höhe des Geländes über dem Meeresspiegel in Metern am Standort der Messstelle.,Float
+topographic_slope_degrees,Statisch-Numerisch,Neigung des Geländes am Standort in Grad.,Float
+main_landuse_cropland_rainfed,Statisch-Kategorisch (kodiert),Dummy-Variable: 1, falls die Landnutzung 'Regenfeldbau' ist, sonst 0.,Integer (0/1)
+main_landuse_forests_and_natural_vegetation,Statisch-Kategorisch (kodiert),Dummy-Variable: 1, falls die Landnutzung 'Wald/Natürliche Vegetation' ist, sonst 0.,Integer (0/1)
+month_num_1,Zeitlich (kodiert),Dummy-Variable: 1, falls der Monat Januar ist, sonst 0.,Integer (0/1)
+month_num_2,Zeitlich (kodiert),Dummy-Variable: 1, falls der Monat Februar ist, sonst 0.,Integer (0/1)
+month_num_3,Zeitlich (kodiert),Dummy-Variable: 1, falls der Monat März ist, sonst 0.,Integer (0/1)
+month_num_4,Zeitlich (kodiert),Dummy-Variable: 1, falls der Monat April ist, sonst 0.,Integer (0/1)
+month_num_5,Zeitlich (kodiert),Dummy-Variable: 1, falls der Monat Mai ist, sonst 0.,Integer (0/1)
+month_num_6,Zeitlich (kodiert),Dummy-Variable: 1, falls der Monat Juni ist, sonst 0.,Integer (0/1)
+month_num_7,Zeitlich (kodiert),Dummy-Variable: 1, falls der Monat Juli ist, sonst 0.,Integer (0/1)
+month_num_8,Zeitlich (kodiert),Dummy-Variable: 1, falls der Monat August ist, sonst 0.,Integer (0/1)
+month_num_9,Zeitlich (kodiert),Dummy-Variable: 1, falls der Monat September ist, sonst 0.,Integer (0/1)
+month_num_10,Zeitlich (kodiert),Dummy-Variable: 1, falls der Monat Oktober ist, sonst 0.,Integer (0/1)
+month_num_11,Zeitlich (kodiert),Dummy-Variable: 1, falls der Monat November ist, sonst 0.,Integer (0/1)
+month_num_12,Zeitlich (kodiert),Dummy-Variable: 1, falls der Monat Dezember ist, sonst 0.,Integer (0/1)
+air_temperature_monthly,Dynamisch (Klima),Monatliche Durchschnittstemperatur in Grad Celsius (°C).,Float
+evapotranspiration_monthly,Dynamisch (Klima),Monatliche potenzielle Evapotranspiration (in mm/Monat).,Float
+lai_high_veg_monthly,Dynamisch (Vegetation),Monatlicher durchschnittlicher Blattflächenindex (LAI) für hohe Vegetation.,Float
+lai_low_veg_monthly,Dynamisch (Vegetation),Monatlicher durchschnittlicher Blattflächenindex (LAI) für niedrige Vegetation.,Float
+ndvi_monthly,Dynamisch (Vegetation),Monatlicher durchschnittlicher NDVI (Normalized Differenz Vegetation Index).,Float
+precipitation_monthly,Dynamisch (Klima),Monatlicher Niederschlag (in mm/Monat).,Float
+snow_depth_monthly,Dynamisch (Klima),Monatliche durchschnittliche Schneehöhe in Metern.,Float
+withdrawal_domestic_monthly,Dynamisch (Entnahme),Monatliche private Wasserentnahme (in m³/Monat).,Float
+sgi_label,SGI (aktuell),Der Standardized Groundwater Index (SGI) des aktuellen Monats.,Float
+sgi_resid,SGI (aktuell),Die Residuum-Komponente (Rest) des SGI aus der STL-Zerlegung für den aktuellen Monat.,Float
+sgi_seasonal,SGI (aktuell),Die Saison-Komponente des SGI aus der STL-Zerlegung für den aktuellen Monat.,Float
+sgi_trend,SGI (aktuell),Die Trend-Komponente des SGI aus der STL-Zerlegung für den aktuellen Monat.,Float 
+sgi_label_lag_1M,Lag-Feature,Der Wert von 'sgi_label' von vor 1 Monat.,Float
+sgi_label_lag_3M,Lag-Feature,Der Wert von 'sgi_label' von vor 3 Monaten.,Float
+sgi_label_lag_6M,Lag-Feature,Der Wert von 'sgi_label' von vor 6 Monaten.,Float 
+sgi_label_lag_12M,Lag-Feature,Der Wert von 'sgi_label' von vor 12 Monaten.,Float
+sgi_resid_lag_1M,Lag-Feature,Der Wert von 'sgi_resid' von vor 1 Monat.,Float
+sgi_resid_lag_3M,Lag-Feature,Der Wert von 'sgi_resid' von vor 3 Monaten.,Float
+sgi_resid_lag_6M,Lag-Feature,Der Wert von 'sgi_resid' von vor 6 Monaten.,Float
+sgi_resid_lag_12M,Lag-Feature,Der Wert von 'sgi_resid' von vor 12 Monaten.,Float
+sgi_seasonal_lag_1M,Lag-Feature,Der Wert von 'sgi_seasonal' von vor 1 Monat.,Float
+sgi_seasonal_lag_3M,Lag-Feature,Der Wert von 'sgi_seasonal' von vor 3 Monaten.,Float
+sgi_seasonal_lag_6M,Lag-Feature,Der Wert von 'sgi_seasonal' von vor 6 Monaten.,Float
+sgi_seasonal_lag_12M,Lag-Feature,Der Wert von 'sgi_seasonal' von vor 12 Monaten.,Float
+sgi_trend_lag_1M,Lag-Feature,Der Wert von 'sgi_trend' von vor 1 Monat.,Float
+sgi_trend_lag_3M,Lag-Feature,Der Wert von 'sgi_trend' von vor 3 Monaten.,Float
+sgi_trend_lag_6M,Lag-Feature,Der Wert von 'sgi_trend' von vor 6 Monaten.,Float
+sgi_trend_lag_12M,Lag-Feature,Der Wert von 'sgi_trend' von vor 12 Monaten.,Float
